@@ -1,0 +1,24 @@
+{
+    "name": "Fuzerly Dev #0001",
+    "symbol": "NB",
+    "description": "Our dear leader in 8-bit",
+    "seller_fee_basis_points": 1000,
+    "image": "0.gif",
+    "primary_sale_happened": true,
+    "attributes": [
+        {"trait_type": "Layer-1", "value": "0"},
+        {"trait_type": "Layer-2", "value": "0"},
+        {"trait_type": "Layer-3", "value": "0"},
+        {"trait_type": "Layer-4", "value": "1"}
+    ],
+    "properties": {
+        "creators": [
+          {"address": "6j4nNrozTJkk1zatiXHezSLZArnRUq3WkGKHACThXGpZ", "share": 30},
+          {"address": "HuD12WoviuHLgmTSTfUnqyQ6S4S5B8NmEafxR5ZbU2V2", "share": 40},
+          {"address": "4mCgacssasvEHXHjxjvnxS2NNzatpvmDjHeZxPf95ZbH", "share": 30}
+        ],
+        "files": [{"uri": "0.gif", "type": "image/gif"}]
+    },
+    "collection": {"name": "numbers", "family": "numbers"}
+}
+
