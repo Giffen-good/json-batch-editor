@@ -71,23 +71,16 @@ function getlength(number) {
 function writeProject89Meta() {
     for (let i = 0;i <= 332; i++) {
         let tier, zeroes;
-        switch (i)
-        {
-            case i < 16:
-                tier = 'Diamond';
-                break;
-    
-            case i < 65:
-                tier = 'Gold';
-                break;
-            case i < 106:
-                tier = 'Silver';
-                break;
-            
-            default:
-                tier = 'Bronze'
-                break;
+        if (i < 16) {
+            tier = 'Diamond';
+        } else if (i < 65) {
+            tier = 'Gold';
+        } else if (i < 106) {
+            tier = 'Silver';
+        } else {
+            tier = 'Bronze'
         }
+        
         // check if number needs 0's in front of it
         const numberOfDigits = getlength(i+1);
         switch (numberOfDigits)
